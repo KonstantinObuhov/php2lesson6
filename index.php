@@ -17,9 +17,9 @@ try {
     $controller = new $controllerClass;
     $controller->action($actionName);
 } catch (\App\Exceptions\DbException $e) {
-    $controller->showErrorPage($e->getMessage());
+    $controller->showErrorPage($e->getMessage(), $e->getTrace());
     $logger->critical($e->getMessage());
 } catch (\App\Exceptions\DataException $e) {
     $controller->showErrorPage($e->getMessage());
-    $logger->error($e->getMessage());
+    $logger->error($e->getMessage(), $e->getTrace());
 }

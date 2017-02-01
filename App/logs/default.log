@@ -1,4 +1,1 @@
-Wed, 01 Feb 2017 22:38:08 +0300 info Info message
-Wed, 01 Feb 2017 22:46:28 +0300 info Info message
-Wed, 01 Feb 2017 22:53:45 +0300 info Info message
-Wed, 01 Feb 2017 22:54:01 +0300 error Ошибка 404 - не найдено!
+Wed, 01 Feb 2017 23:14:00 +0300 error Ошибка 404 - не найдено! [{"file":"C:\\OpenServer\\domains\\php2lesson6\\App\\Controller.php","line":24,"function":"actionOne","class":"App\\Controllers\\Index","type":"->","args":[]},{"file":"C:\\OpenServer\\domains\\php2lesson6\\index.php","line":18,"function":"action","class":"App\\Controller","type":"->","args":["One"]}]
